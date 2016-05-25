@@ -380,7 +380,7 @@ End Function
 ' Date Created : August 21, 2012
 ' Created By   : Charmaine Bonifacio
 '---------------------------------------------------------------------------------------
-' Date Edited  : August 14, 2013
+' Date Edited  : May 17, 2016
 ' Edited By    : Charmaine Bonifacio
 ' Comments By  : Charmaine Bonifacio
 '---------------------------------------------------------------------------------------
@@ -409,10 +409,12 @@ ByVal CurrentYear As String, ByVal CurrentMonth As String, ByVal DataIntervalInd
     ' Disable all the pop-up menus
     Application.ScreenUpdating = False
     
+    ' http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data"
+
     ' CONST VARIABLES
     newURL = ""
     c_Domain = "http://climate.weather.gc.ca/" '##################################
-    c_sector = "climateData/bulkdata_e.html?"
+    c_sector = "climate_data/bulk_data_e.html?" ' changed to climate_data
     c_format = "format=csv&"
     c_day = "Day=01&"
     c_submit = "submit=Download+Data" ' This is the last element that needs to be added

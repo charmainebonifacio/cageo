@@ -1,4 +1,4 @@
-Attribute VB_Name = "ShellScript"
+Attribute VB_Name = "ShellScript_DoNotChange"
 Option Explicit
 '---------------------------------------------------------------------------------------
 ' Date Created : April 6, 2013
@@ -44,3 +44,4 @@ Public Sub DownloadURLtoFile(pURL As String, pFullFilePath As String)
     Call URLDownloadToFile(0, pURL, pFullFilePath, 0, 0)
 
 End Sub
+

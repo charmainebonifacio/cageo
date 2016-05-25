@@ -16,7 +16,7 @@ In this paper we present a new software tool that automatically fetches, downloa
  - Canada
 
 ## How To Use CCDST
-Please download the user documentation and macro from the Download folder.
+Please download the user documentation and macro from the Download folder. These supporting documents were last update May 25, 2016.
 
 ## License
 The Canadian Climate Scraping Tool is licensed under a [GNU General Public License v2.0](http://choosealicense.com/licenses/gpl-2.0//)

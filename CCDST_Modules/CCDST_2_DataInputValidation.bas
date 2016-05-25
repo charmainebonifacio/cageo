@@ -223,7 +223,7 @@ End Function
 ' Date Created : February 25, 2013
 ' Created By   : Charmaine Bonifacio
 '---------------------------------------------------------------------------------------
-' Date Edited  : August 14, 2013
+' Date Edited  : May 17, 2016
 ' Edited By    : Charmaine Bonifacio
 ' Comments By  : Charmaine Bonifacio
 '---------------------------------------------------------------------------------------
@@ -239,10 +239,10 @@ Function CheckWebsiteValidity(ByVal URLLink As String) As Boolean
     
     ' Define Variables
     CheckWebsiteValidity = True
-    Website = "http://climate.weather.gc.ca/climateData/"
+    Website = "http://climate.weather.gc.ca/climate_data/"
 
     ' Some parts of the URL make it valid, however, the entire string is invalid.
-    If Left(URLLink, 41) <> Website Then
+    If Left(URLLink, 42) <> Website Then
         CheckWebsiteValidity = False
         Debug.Print "Some elements of the URL are invalid. Please try again."
     End If
