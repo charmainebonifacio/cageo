@@ -1,5 +1,6 @@
 # The Canadian Climate Data Scraping Tool (CCDST)
 [Canadian Climate Data Scraping Tool](http://dx.doi.org/10.1016/j.cageo.2014.10.010)
+[![DOI](https://zenodo.org/badge/38704516.svg)](https://zenodo.org/badge/latestdoi/38704516)
 
 Charmaine Bonifacio (a), Thomas E. Barchyn (b), Chris H. Hugenholtz (b), Stefan W. Kienzle (a,c)
 
